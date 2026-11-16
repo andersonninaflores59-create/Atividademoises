@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedido - Lanchonete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>&#x1F354 Pedido da Lanchonete &#x1F3AF</h2>
+
+        <form>
+
+            <label>Nome:</label>
+            <input type="text" placeholder="Digite seu nome" required>
+
+            <label>Telefone:</label>
+            <input type="tel" placeholder="(11) 99999-9999" required>
+
+            <label>Escolha seu lanche:</label>
+            <select required>
+                <option value="">Selecione...</option>
+                <option>X-Bleeder</option>
+                <option>X-Money Shot</option>
+                <option>X-Heart Stopper</option>
+                <option>Meat Free</option>
+            </select>
+
+            <label>Extras:</label>
+
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox"> Queijo extra
+                </label>
+
+                <label>
+                    <input type="checkbox"> Bacon
+                </label>
+
+                <label>
+                    <input type="checkbox"> Ovo
+                </label>
+            </div>
+
+            <label>Observações:</label>
+            <textarea rows="3" placeholder="Ex: sem cebola..."></textarea>
+
+            <label>Forma de pagamento:</label>
+            <select required>
+                <option value="">Selecione...</option>
+                <option>Dinheiro</option>
+                <option>Cartão</option>
+                <option>Pix</option>
+            </select>
+
+            <button type="submit" class="btn">Enviar Pedido</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
